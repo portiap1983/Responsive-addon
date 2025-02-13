@@ -20,10 +20,19 @@ section {
   grid-gap: 54px;
 }
 
-.science-world {
-  width: 50%;
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.Science-world {
+  width: 100%;
   height: auto;
-  padding-top: 15px;
+  padding-top: 50px;
+  padding-left: 15px;
 }
 
 header {
@@ -133,17 +142,43 @@ footer ul {
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
+    text-align: center;
   }
 
   header h1 {
     font-size: 48px;
+    text-align: center;
   }
 
   header h2 {
     font-size: 20px;
+    text-align: center;
   }
 
   header h3 {
     font-size: 12px;
+    text-align: center;
+  }
+
+  section p {
+    text-align: center;
+  }
+
+  section h2 {
+    text-align: center;
+  }
+
+  section h3 {
+    text-align: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  .img-responsive {
+    max-width: 100%;
+    padding: 0%;
   }
 }
