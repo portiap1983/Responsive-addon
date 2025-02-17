@@ -4,8 +4,17 @@ body {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 100px;
+}
+
+section.second-section {
+  background: #f8f8f8;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .container {
@@ -28,7 +37,30 @@ section {
   grid-template-columns: 1fr 2fr 1fr;
 }
 
-.Science-world {
+.grid-3-columns-restaurants {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px;
+  background-color: #462cb3;
+}
+
+.img-responsive {
   width: 100%;
   height: auto;
   padding-top: 50px;
@@ -97,6 +129,20 @@ main h2 {
   color: #272044;
   opacity: 0.3;
   text-transform: uppercase;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #272044;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #272044;
 }
 
 footer {
