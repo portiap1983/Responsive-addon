@@ -46,6 +46,14 @@ section.second-section {
   margin: 30px 0;
 }
 
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 2ß0px;
+}
+
 .btn {
   display: block;
   color: white;
@@ -65,6 +73,7 @@ section.second-section {
   height: auto;
   padding-top: 50px;
   padding-left: 15px;
+  display: block;
 }
 
 header {
@@ -134,8 +143,9 @@ main h2 {
 main h4 {
   font-weight: 700;
   font-size: 24px;
-  line-height: 1.5;
+  line-height: 1;
   color: #272044;
+  margin: 0;
 }
 
 main h5 {
@@ -143,6 +153,7 @@ main h5 {
   font-size: 13px;
   line-height: 1.5;
   color: #272044;
+  margin: 0;
 }
 
 footer {
