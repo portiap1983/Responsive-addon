@@ -51,7 +51,7 @@ section.second-section {
 }
 
 .card-footer {
-  padding: 2ß0px;
+  padding: 20px;
 }
 
 .btn {
@@ -70,10 +70,11 @@ section.second-section {
 
 .img-responsive {
   width: 100%;
-  height: auto;
-  padding-top: 50px;
-  padding-left: 15px;
+  height: 200px; /* Ensures consistent height */
+  object-fit: cover; /* Keeps images proportionate */
+  padding-top: 50px; /* Keeps spacing at the top */
   display: block;
+  margin: 0 auto; /* Centers the image inside the card */
 }
 
 header {
@@ -237,5 +238,16 @@ footer ul {
   .img-responsive {
     max-width: 100%;
     padding: 0%;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 10px 15px;
+    width: auto;
+    max-width: 300px;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    white-space: nowrap;
   }
 }
