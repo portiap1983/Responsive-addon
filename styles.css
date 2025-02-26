@@ -39,6 +39,11 @@ section.second-section {
 
 .grid-3-columns-restaurants {
   grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+}
+
+.instagram.grid.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card {
