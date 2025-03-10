@@ -244,14 +244,21 @@ footer ul {
     text-align: center;
   }
 
+  p {
+    font-size: 14px;
+  }
+
+  .card {
+    margin: 5px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
 
   .img-responsive {
-    width: 100%;
-    padding: 0%;
+    display: none;
   }
 
   .btn {
