@@ -80,6 +80,7 @@ section.second-section {
   text-decoration: none;
   padding: 16px;
   background-color: #462cb3;
+  border: none;
 }
 
 .img-responsive {
@@ -211,7 +212,7 @@ footer ul {
   padding: 0;
 }
 
-instagram-buttons {
+.instagram-buttons {
   display: none;
 }
 
@@ -295,6 +296,10 @@ instagram-buttons {
   }
 
   .instagram.grid {
+    display: none;
+  }
+
+  .google {
     display: none;
   }
 
